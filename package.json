@@ -1,0 +1,34 @@
+{
+  "name": "tesseracting",
+  "version": "1.0.0",
+  "description": "Studying tesseract to extract text from images",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-de-Souza/tesseracting.git"
+  },
+  "keywords": [
+    "tesseract",
+    "extractImages",
+    "examplesWithTesseract",
+    "imageToText"
+  ],
+  "author": "Matheus de Souza <mws.souza@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Matheus-de-Souza/tesseracting/issues"
+  },
+  "homepage": "https://github.com/Matheus-de-Souza/tesseracting#readme",
+  "dependencies": {
+    "tesseract.js": "^1.0.10"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.18.2",
+    "mocha": "^5.0.4"
+  }
+}
